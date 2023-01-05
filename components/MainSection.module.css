@@ -1,0 +1,33 @@
+.maincontainer {
+  height: 100vh;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.maintext {
+  font-size: 32px;
+  text-align: center;
+}
+
+.mainimage {
+    display: none;
+  }
+
+@media only screen and (min-width: 1000px) {
+  .mainimage {
+    display: block;
+  }
+
+  .maintext {
+    font-size: 32px;
+    text-align: left;
+  }
+}
