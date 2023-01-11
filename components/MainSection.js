@@ -5,9 +5,31 @@ import React, { useState, useEffect, Component } from "react";
 import Typical from "react-typical";
 import { DiReact } from "react-icons/di";
 import { AiFillBug } from "react-icons/ai";
+import { position } from "@chakra-ui/react";
 
 function MainSection() {
   const [count, setCount] = useState(1);
+
+  const style = {
+    borderRadius : "2rem",
+    boxShadow: "0 0 50px 50px white inset",
+    position: "absolute",
+    top:0,
+    left:0
+  }
+
+  const styleblur = {
+    borderRadius : "2rem",
+    boxShadow: "0 0 50px 50px white inset",
+    "-webkit-filter": "blur(20px)",
+    "-moz-filter": "blur(20px)",
+    "-o-filter": "blur(20px)",
+    "-ms-filter": "blur(20px)",
+    filter: "blur(30px)",
+    "z-index" : "-99",
+    top:0,
+    left:0
+  }
 
   useEffect(() => {
     console.log("Count: " + count);
@@ -42,10 +64,18 @@ function MainSection() {
           
           <div className={classes.mainimage}>
             <Image
+              style={styleblur}
               alt="AI generated image of a wild wavy circular pattern"
-              src={mainImage}
-              height={500}
-              width={500}
+              src= "/../public/dddepth-088.jpg"
+              height={400}
+              width={400}
+            />
+            <Image
+              style={style}
+              alt="AI generated image of a wild wavy circular pattern"
+              src= "/../public/dddepth-088.jpg"
+              height={400}
+              width={400}
             />
           </div>
         </div>

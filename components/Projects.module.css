@@ -1,0 +1,65 @@
+.section {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.title {
+    font-size: clamp(1.8125rem, 1.3214rem + 1.5714vw, 2.5rem);
+}
+
+.projectscontainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.singleproject {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80%;
+    gap: 2rem;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.images {
+    border-radius: 20%;
+}
+
+.projecttitle {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.projectdescription{
+    text-align: center;
+}
+
+.projecttitle a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+@media only screen and (min-width: 1100px) {
+    .singleproject {
+        display: flex;
+        flex-flow: row nowrap;
+        width: 80%;
+        gap: 2rem;
+    }
+
+    .projecttitle {
+        text-align: left;
+    }
+
+    .projectdescription{
+        text-align: left;
+    }
+
+}

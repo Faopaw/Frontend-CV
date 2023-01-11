@@ -18,6 +18,10 @@
   width: 70%;
 }
 
+#about {
+    font-size: clamp(1.75rem, 0.8571rem + 2.8571vw, 3rem);
+}
+
 .aboutimage {
   display: block;
   margin: 1rem;
@@ -27,6 +31,7 @@
   display: block;
   text-align: center;
   font-size: 18px;
+  font-size: clamp(1.125rem, 1.0357rem + 0.2857vw, 1.25rem);
 }
 
 .socialslinks {
