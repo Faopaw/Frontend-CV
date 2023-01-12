@@ -7,7 +7,7 @@ import { IconContext } from "react-icons";
 function AboutSection() {
   return (
     <section  className={classes.maincontainer}>
-      <h1 id="about">About Me</h1>
+      <h1 id="about" className={classes.about}>About Me</h1>
       <div className={classes.content}>
         <div className={classes.aboutimage}>
           <Image
@@ -34,6 +34,23 @@ function AboutSection() {
             I am hoping to land my first Frontend Developer job with a company
             who&apos;s values align with mine.
           </p>
+          <h3>Skills</h3>
+          <div className={classes.techskills}>
+            <ul className={classes.listcontainer}>
+              <li className= {classes.listitem} >HTML5</li>
+              <li className= {classes.listitem} >CSS3</li>
+              <li className= {classes.listitem} >JavaScript / ES6</li>
+              <li className= {classes.listitem} >React.js</li>
+              <li className= {classes.listitem} >Figma</li>
+              <li className= {classes.listitem} >Postman</li>
+              <li className= {classes.listitem} >Git/GitHub</li>
+              <li className= {classes.listitem} >Node.js</li>
+              <li className= {classes.listitem} >MongoDB</li>
+              <li className= {classes.listitem} >Next.js</li>
+              <li className= {classes.listitem} >Sass</li>
+              <li className= {classes.listitem} >Visual Studio Code</li>
+            </ul>
+          </div>
           <div className={classes.socialslinks}>
             <IconContext.Provider
               value={{ size: "2em", className: classes.react_icons }}

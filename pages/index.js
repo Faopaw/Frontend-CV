@@ -3,7 +3,9 @@ import MainSection from "../components/MainSection";
 import AboutSection from "../components/AboutSection";
 import Projects from "../components/Projects";
 import NavbarComponent from "../components/navbar";
+import Parallax from "../components/Parallax";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function Homepage() {
@@ -11,7 +13,9 @@ function Homepage() {
     <Fragment>
       <NavbarComponent/>
       <MainSection></MainSection>
+      <Parallax/>
       <AboutSection></AboutSection>
+      <Parallax/>
       <Projects></Projects>
     </Fragment>
   );

@@ -5,7 +5,6 @@ import React, { useState, useEffect, Component } from "react";
 import Typical from "react-typical";
 import { DiReact } from "react-icons/di";
 import { AiFillBug } from "react-icons/ai";
-import { position } from "@chakra-ui/react";
 
 function MainSection() {
   const [count, setCount] = useState(1);
@@ -21,7 +20,7 @@ function MainSection() {
   const styleblur = {
     borderRadius : "2rem",
     boxShadow: "0 0 50px 50px white inset",
-    "-webkit-filter": "blur(20px)",
+    "WebkitFilter": "blur(20px)",
     "-moz-filter": "blur(20px)",
     "-o-filter": "blur(20px)",
     "-ms-filter": "blur(20px)",
@@ -38,10 +37,10 @@ function MainSection() {
 
   return (
     <>
-      <section className={classes.maincontainer}>
+      <section id="home" className={classes.maincontainer}>
         <div className={classes.main}>
           <div className={classes.maintext}>
-            Hi there, I am Idiris Omer and I am a
+            Hi there, I am <span className={classes.myname}>Idiris Omer</span> and I am a
             <br></br>
             <Typical
             steps={[

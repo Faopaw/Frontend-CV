@@ -1,14 +1,18 @@
 .section {
     width: 100%;
+    background-color: white;
     display: flex;
     flex-flow: column;
     align-items: center;
     gap: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 .title {
     font-size: clamp(1.8125rem, 1.3214rem + 1.5714vw, 2.5rem);
+    padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 
 .projectscontainer {

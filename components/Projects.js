@@ -14,7 +14,6 @@ function Projects() {
 
   return (
     <>
-    
       <section id="projects" className={classes.section}>
         <h1 className={classes.title}>Projects</h1>
         <div className={classes.projectscontainer}>
