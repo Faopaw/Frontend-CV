@@ -1,0 +1,56 @@
+.section {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding-bottom: 5rem;
+}
+
+.section h1 {
+    font-weight: bold;
+}
+
+.form {
+    background-color: #ffffff;
+    width: 60%;
+    max-width: 600px;
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* .form input {
+    width: 75%;
+} */
+
+.usernameinput {
+    width: 75%;
+}
+
+.useremailinput {
+    width: 75%;
+}
+
+.usermessageinput {
+    width: 75%;
+}
+
+.submitbutton {
+    background-color: #02c22b;
+    width: 80px;
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .form {
+    width: 60%;
+    max-width: 800px;
+  }
+}

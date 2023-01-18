@@ -5,12 +5,18 @@ import { BsLinkedin, BsTwitter, BsGithub } from "react-icons/bs";
 import { IconContext } from "react-icons";
 
 function AboutSection() {
+
+  const picstyle = {
+    borderRadius: "5%"
+  };
+
   return (
     <section  className={classes.maincontainer}>
       <h1 id="about" className={classes.about}>About Me</h1>
       <div className={classes.content}>
         <div className={classes.aboutimage}>
           <Image
+          style={picstyle}
             alt="a decent picture of me"
             src={profilepic}
             height={400}
