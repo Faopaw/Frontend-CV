@@ -21,19 +21,19 @@ function MainSection() {
     borderRadius : "2rem",
     boxShadow: "0 0 50px 50px white inset",
     "WebkitFilter": "blur(20px)",
-    "-moz-filter": "blur(20px)",
-    "-o-filter": "blur(20px)",
-    "-ms-filter": "blur(20px)",
+    "Mozfilter": "blur(20px)",
+    "OFilter": "blur(20px)",
+    "msFilter": "blur(20px)",
     filter: "blur(30px)",
-    "z-index" : "-99",
+    "zindex" : "-99",
     top:0,
     left:0
   }
 
-  useEffect(() => {
-    console.log("Count: " + count);
-    setCount(1);
-  }, [count]);
+  // useEffect(() => {
+  //   console.log("Count: " + count);
+  //   setCount(1);
+  // }, [count]);
 
   return (
     <>

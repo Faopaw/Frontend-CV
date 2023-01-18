@@ -1,29 +1,29 @@
 .section {
-    width: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    padding-bottom: 5rem;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  padding-bottom: 5rem;
 }
 
 .section h1 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .form {
-    background-color: #ffffff;
-    width: 60%;
-    max-width: 600px;
-    border-radius: 15px;
-    padding: 2rem;
-    margin: 2rem;
+  background-color: #ffffff;
+  width: 60%;
+  max-width: 600px;
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 2rem;
 
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 1rem;
 }
 
 /* .form input {
@@ -31,22 +31,41 @@
 } */
 
 .usernameinput {
-    width: 75%;
+  width: 75%;
+  padding: 8px;
+  border-radius: 6px;
 }
 
 .useremailinput {
-    width: 75%;
+  width: 75%;
+  padding: 8px;
+  border-radius: 6px;
 }
 
 .usermessageinput {
-    width: 75%;
+  width: 75%;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.usernameinput ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #3799fa;
+  opacity: 1; /* Firefox */
+}
+
+.useremailinput ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #a1a6ac;
+  opacity: 1; /* Firefox */
 }
 
 .submitbutton {
-    background-color: #02c22b;
-    width: 80px;
+  background-color: #02c22b;
+  width: 80px;
+  border: none;
+  border-radius: 6px;
 }
-
 
 @media only screen and (min-width: 1000px) {
   .form {
