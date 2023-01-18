@@ -1,6 +1,6 @@
 import Image from "next/image";
 import classes from "./MainSection.module.css";
-import mainImage from "../public/dddepth-088.jpg";
+import mainImage from ".//../public/dddepth-088.jpg";
 import React, { useState, useEffect, Component } from "react";
 import Typical from "react-typical";
 import { DiReact } from "react-icons/di";
