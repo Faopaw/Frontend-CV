@@ -4,7 +4,7 @@ import AboutSection from "../components/AboutSection";
 import Projects from "../components/Projects";
 import NavbarComponent from "../components/navbar";
 import Parallax from "../components/Parallax";
-import ContactUs from "../components/Contactus";
+import ContactUs from "../components/ContactUs";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
