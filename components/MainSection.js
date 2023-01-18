@@ -1,6 +1,6 @@
 import Image from "next/image";
 import classes from "./MainSection.module.css";
-import mainImage from "../public/ccchaos.svg";
+import mainImage from "../public/dddepth-088.jpg";
 import React, { useState, useEffect, Component } from "react";
 import Typical from "react-typical";
 import { DiReact } from "react-icons/di";
@@ -65,14 +65,14 @@ function MainSection() {
             <Image
               style={styleblur}
               alt="AI generated image of a wild wavy circular pattern"
-              src= "/../public/dddepth-088.jpg"
+              src= {mainImage}
               height={400}
               width={400}
             />
             <Image
               style={style}
               alt="AI generated image of a wild wavy circular pattern"
-              src= "/../public/dddepth-088.jpg"
+              src= {mainImage}
               height={400}
               width={400}
             />
