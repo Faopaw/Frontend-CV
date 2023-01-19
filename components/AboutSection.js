@@ -27,15 +27,14 @@ function AboutSection() {
           <p>
             {" "}
             Ever since I was a young child I had an interest in technology and
-            its capabilities. my first experience with programming was with the
-            Scratch programming language. It may seem like something
-            insignificant but It may have been the thing that sparked my
-            curiosity for technology, programming and its potential
+            its capabilities. My first experience with programming was with the
+            Scratch programming language. It was the thing that sparked my
+            curiosity for technology, programming and its limitless potential
             capabilities.
           </p>
           <p>
             {" "}
-            Fast forward to the present and I am now a Frontend Developer. I
+            Fast forward to the present, I am now a Frontend Developer. I
             have got here via online bootcamps and extra courses taken in my own time.
             I am hoping to land my first Frontend Developer job with a company
             who&apos;s values align with mine.

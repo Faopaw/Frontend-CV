@@ -52,7 +52,7 @@ function MainSection() {
               1000,
               "React Developer",
               1000,
-              "Bux fixer",
+              "Bug fixer",
               1000,
             ]}
             loop={Infinity}

@@ -65,7 +65,7 @@ export const ContactUs = () => {
       />
       <section id="contact" className={classes.section}>
         <form className={classes.form} ref={form} onSubmit={sendEmail}>
-          <h2>Contact Us</h2>
+          <h2>Contact Me</h2>
           {/* <label>Name</label> */}
           <input
             className={classes.usernameinput}
