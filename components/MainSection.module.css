@@ -52,5 +52,6 @@
   .maintext {
     font-size: 32px;
     text-align: left;
+    max-width: 80%;
   }
 }
