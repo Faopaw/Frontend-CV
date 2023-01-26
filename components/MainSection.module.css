@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: space-around;
   gap: 1rem;
+  padding: 0px 20px;
 }
 
 .maintext {
