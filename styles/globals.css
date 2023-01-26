@@ -7,7 +7,7 @@ body {
     scroll-behavior: smooth;
     
     background-image: url("../public/ttten.svg");
-    background-color: #121212;
+    background-color: #ffffff;
     background-attachment: fixed;
     height: 100%;
     background-position: center;
@@ -31,6 +31,6 @@ a {
   }
   body {
     background-image: url("../public/ttten.svg");
-    background-color: #121212;
+    background-color: #ffffff;
   }
 }

@@ -7,7 +7,8 @@ import { IconContext } from "react-icons";
 function AboutSection() {
 
   const picstyle = {
-    borderRadius: "5%"
+    borderRadius: "10%",
+    padding: "1rem"
   };
 
   return (

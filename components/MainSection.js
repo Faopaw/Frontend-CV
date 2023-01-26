@@ -63,6 +63,7 @@ function MainSection() {
           
           <div className={classes.mainimage}>
             <Image
+              data-testid="image"
               style={styleblur}
               alt="AI generated image of a wild wavy circular pattern"
               src= {mainImage}
