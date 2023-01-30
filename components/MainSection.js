@@ -69,6 +69,7 @@ function MainSection() {
               src= {mainImage}
               height={400}
               width={400}
+              priority
             />
             <Image
               style={style}
@@ -76,6 +77,7 @@ function MainSection() {
               src= {mainImage}
               height={400}
               width={400}
+              priority
             />
           </div>
         </div>
