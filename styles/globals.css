@@ -15,6 +15,10 @@ body {
     background-size: cover;
     overflow-x: hidden;
   }
+  :root {
+    --mainColor: #ff5e00;
+  }
+  
 
 a {
   color: inherit;
