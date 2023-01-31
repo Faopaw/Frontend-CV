@@ -8,7 +8,9 @@ import wordleclonepic from "../public/wordlescreenshot.png";
 
 function Projects() {
   const picstyle = {
-    borderRadius: "5%",
+    borderRadius: "10%",
+    objectFit: "cover",
+    objectPosition: "center",
   };
 
   return (
@@ -16,14 +18,15 @@ function Projects() {
       <section id="projects" className={classes.section}>
         <h1 className={classes.title}>Projects</h1>
         <div className={classes.projectscontainer}>
-          <div className={classes.singleproject}>
-            <Image
-              style={picstyle}
-              alt="image of the project"
-              src={fruityvicepic}
-              height={200}
-              width={355.56}
-            />
+          <div style={{gridArea: 1 / 1 / 2 / 3}} className={classes.singleproject}>
+            <div className={classes.imagecontainer}>
+              <Image
+                style={picstyle}
+                alt="image of the project"
+                src={fruityvicepic}
+                fill
+              />
+            </div>
             <div className={classes.projecttext}>
               <h3 className={classes.projecttitle}>
                 <a href="https://fruityvice-react-app.vercel.app/">
@@ -41,14 +44,15 @@ function Projects() {
               </p>
             </div>
           </div>
-          <div className={classes.singleproject}>
-            <Image
+          <div style={{gridArea: 2 / 1 / 3 / 3}} className={classes.singleproject}>
+          <div className={classes.imagecontainer}>
+           <Image
               style={picstyle}
               alt="image of the project"
               src={landingpagepic}
-              height={200}
-              width={355.56}
-            />
+              fill
+            /> 
+          </div>
             <div className={classes.projecttext}>
               <h3 className={classes.projecttitle}>
                 <a href="https://github.com/Faopaw/mca_landingpage">
@@ -63,14 +67,15 @@ function Projects() {
               </p>
             </div>
           </div>
-          <div className={classes.singleproject}>
+          <div style={{gridArea: 3 / 1 / 4 / 3}} className={classes.singleproject}>
+          <div className={classes.imagecontainer}>
             <Image
               style={picstyle}
               alt="image of the project"
               src={wordleclonepic}
-              height={200}
-              width={355.56}
+              fill
             />
+          </div>
             <div className={classes.projecttext}>
               <h3 className={classes.projecttitle}>
                 <a href="https://github.com/Faopaw/wordle-game-react">
@@ -81,18 +86,21 @@ function Projects() {
                 A clone of the viral 2022 game &apos;Wordle&apos;. This project
                 was made using JavaScript, React, Animate.css and
                 react-toastify. The aim of the game is to correctly guess the
-                answer with a limited number of attempts. The game gives you clues as to whether the letters are correct, not correct or almost correct.
+                answer with a limited number of attempts. The game gives you
+                clues as to whether the letters are correct, not correct or
+                almost correct.
               </p>
             </div>
           </div>
-          <div className={classes.singleproject}>
+          <div style={{gridArea: 4 / 1 / 5 / 3}} className={classes.singleproject}>
+          <div className={classes.imagecontainer}>
             <Image
               style={picstyle}
               alt="image of the project"
               src={oldwebsitepic}
-              height={200}
-              width={355.56}
+              fill
             />
+          </div>
             <div className={classes.projecttext}>
               <h3 className={classes.projecttitle}>
                 <a href="https://faopaw.github.io/idirisomer.github.io/">
@@ -100,7 +108,9 @@ function Projects() {
                 </a>
               </h3>
               <p className={classes.projectdescription}>
-                This was the first website I created using only HTML and Sass. Despite its simplicity, it is easy on the eye, responsive and straightforward.
+                This was the first website I created using only HTML and Sass.
+                Despite its simplicity, it is easy on the eye, responsive and
+                straightforward.
               </p>
             </div>
           </div>

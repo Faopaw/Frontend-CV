@@ -1,69 +1,115 @@
 .section {
-    width: 100%;
-    background-color: white;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    gap: 2rem;
-    margin-bottom: 5rem;
-    padding-bottom: 3rem;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 .title {
-    font-size: clamp(1.8125rem, 1.3214rem + 1.5714vw, 2.5rem);
-    padding-top: 3rem;
+  font-size: clamp(1.8125rem, 1.3214rem + 1.5714vw, 2.5rem);
+  padding-top: 3rem;
   padding-bottom: 1rem;
 }
 
 .projectscontainer {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 .singleproject {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 80%;
+  gap: 2rem;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.imagecontainer {
+  display: block;
+  position: relative;
+  margin: 1rem;
+  height: 200px;
+  width: 100%;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 450px) {
+  .imagecontainer {
+    display: block;
+    position: relative;
+    margin: 1rem;
+    height: 200px;
+    width: 355.56px;
+    padding: 2rem;
+  }
+}
+
+.images {
+  border-radius: 20%;
+}
+
+.projecttitle {
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.projectdescription {
+  text-align: center;
+}
+
+.projecttitle a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media only screen and (min-width: 1100px) {
+  .projectscontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+  }
+
+  .singleproject {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
     width: 80%;
     gap: 2rem;
     margin-bottom: 30px;
     align-items: center;
-}
+    justify-self: center;
+    justify-content: center;
+  }
 
-.images {
-    border-radius: 20%;
-}
+  .projecttitle {
+    text-align: left;
+  }
 
-.projecttitle {
-    text-align: center;
-    margin-top: 10px;
-    padding-bottom: 10px;
-}
+  .projectdescription {
+    text-align: left;
+  }
 
-.projectdescription{
-    text-align: center;
-}
-
-.projecttitle a {
-    text-decoration: none;
-    color: inherit;
-}
-
-
-@media only screen and (min-width: 1100px) {
-    .singleproject {
-        display: flex;
-        flex-flow: row nowrap;
-        width: 80%;
-        gap: 2rem;
-    }
-
-    .projecttitle {
-        text-align: left;
-    }
-
-    .projectdescription{
-        text-align: left;
-    }
-
+  .imagecontainer {
+    display: block;
+    min-width: 40%;
+    
+    /* position: relative; */
+    margin: 1rem;
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+    /* flex-basis: 533px; */
+    height: 300px;
+    width: 533px;
+    /* width: 40%; */
+    /* padding: 2rem; */
+  }
 }
