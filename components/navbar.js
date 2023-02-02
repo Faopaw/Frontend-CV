@@ -2,10 +2,22 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import classes from './navbar.module.css';
 
 function NavbarComponent() {
+
+  const style = {
+    backdropFilter: "blur(20px)",
+    backgroundColor: "rgba(255, 255, 255, .15)",
+    position: "absolute",
+    width: "99%",
+    borderBottom: "solid 2px transparent",
+    backgroundClip: "padding-box",
+    boxShadow : "10px 10px 10px rgba(46, 54, 68, 0.03)"
+    // rgb(146 146 146 / 20%)
+  }
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar style={style} className= "navbar" variant="light" expand="lg" sticky="top">
       <Container>
         <Navbar.Brand href="#home">Idiris Omer</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
