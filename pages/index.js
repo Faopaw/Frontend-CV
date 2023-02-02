@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Homepage() {
   return (
     <Fragment>
-      <NavbarComponent/>
+      {/* <NavbarComponent/> */}
       <MainSection></MainSection>
       <Parallax/>
       <AboutSection></AboutSection>

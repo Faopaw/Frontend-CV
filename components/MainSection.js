@@ -3,12 +3,9 @@ import classes from "./MainSection.module.css";
 import mainImage from ".//../public/dddepth-088.jpg";
 import React, { useState, useEffect, Component } from "react";
 import Typical from "react-typical";
-import { DiReact } from "react-icons/di";
-import { AiFillBug } from "react-icons/ai";
+import NavbarComponent from "../components/navbar";
 
 function MainSection() {
-  const [count, setCount] = useState(1);
-
   const style = {
     borderRadius : "2rem",
     boxShadow: "0 0 50px 50px white inset",
@@ -37,6 +34,7 @@ function MainSection() {
 
   return (
     <>
+    <NavbarComponent/>
       <section id="home" className={classes.maincontainer}>
         <div className={classes.main}>
           <div className={classes.maintext}>
