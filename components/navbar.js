@@ -9,8 +9,8 @@ function NavbarComponent() {
   const style = {
     backdropFilter: "blur(20px)",
     backgroundColor: "rgba(255, 255, 255, .15)",
-    position: "absolute",
-    width: "99%",
+    // position: "absolute",
+    width: "100vw",
     borderBottom: "solid 2px transparent",
     backgroundClip: "padding-box",
     boxShadow : "10px 10px 10px rgba(46, 54, 68, 0.03)"
