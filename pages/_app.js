@@ -3,6 +3,7 @@ import '../styles/globals.css'
 
 
 function MyApp({ Component, pageProps }) {
+  // <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   return (
       <Component {...pageProps} />
   )

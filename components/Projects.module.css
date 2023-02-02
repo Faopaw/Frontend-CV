@@ -15,6 +15,23 @@
   font-size: clamp(1.8125rem, 1.3214rem + 1.5714vw, 2.5rem);
   padding-top: 3rem;
   padding-bottom: 1rem;
+  
+  background: #e96443; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #904e95,
+    #e96443
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #904e95,
+    #e96443
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
 }
 
 .projectscontainer {
@@ -74,14 +91,14 @@
 .projecttitle a {
   background:
      linear-gradient(
-       to bottom,
-       var(--mainColor) 0%,
-       var(--mainColor) 100%
+      to right,
+    #904e95,
+    #e96443
      );
 	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: 0 100%;
-  color: #000;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   transition: background-size .2s;
 }
@@ -89,8 +106,10 @@
 .projecttitle a:hover {
   background-size: 100% 100%;
   text-decoration: none;
-  color: #000;
+  color: rgb(255, 255, 255);
   background-position: left center;
+  border-radius: 10%;
+  padding: 0.3rem;
 }
 /* .projecttitle a::before {
   background: hsl(45 100% 70%);

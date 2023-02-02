@@ -40,7 +40,7 @@ function MainSection() {
       <section id="home" className={classes.maincontainer}>
         <div className={classes.main}>
           <div className={classes.maintext}>
-            Hi there, I am <span className={classes.myname}>Idiris Omer</span> and I am a
+            Hi there, I am <span className={classes.myname}>Idiris Omer</span>,
             <br></br>
             <Typical
             steps={[

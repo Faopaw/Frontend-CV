@@ -7,7 +7,11 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 export const ContactUs = () => {
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   const form = useRef();
+  const templateparams = {
+    'g-recaptcha-response' : '03AHJ_ASjnLA214KSNKFJAK12sfKASfehbmfd...'
+  }
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,7 +21,10 @@ export const ContactUs = () => {
         "contact_service",
         "contact_form",
         form.current,
-        "RZ2drz7h2D_Eb1G__"
+        "RZ2drz7h2D_Eb1G__",
+        {
+          'g-recaptcha-response' : '03AHJ_ASjnLA214KSNKFJAK12sfKASfehbmfd...'
+        }
       )
       .then(
         (result) => {
@@ -89,6 +96,7 @@ export const ContactUs = () => {
             cols={33}
           />
           <input className={classes.submitbutton} type="submit" value="Send" />
+          <div class="g-recaptcha" data-sitekey="6LcMs0AkAAAAAEQEv0nGTMhE39xuIbVyJlTaMZlA"></div>
         </form>
       </section>
     </>

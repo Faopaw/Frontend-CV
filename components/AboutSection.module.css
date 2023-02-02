@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 .section h1 {
   display: block;
 }
@@ -5,6 +7,23 @@
 .about {
   padding-top: 3rem;
   padding-bottom: 1rem;
+  font-size: clamp(1.75rem, 0.8571rem + 2.8571vw, 3rem);
+  background: #e96443; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #904e95,
+    #e96443
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #904e95,
+    #e96443
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
 }
 
 .maincontainer {
@@ -25,10 +44,6 @@
   justify-content: center;
   width: 70%;
   padding-bottom: 4rem;
-}
-
-#about {
-  font-size: clamp(1.75rem, 0.8571rem + 2.8571vw, 3rem);
 }
 
 @media screen and (min-width : 450px ) {
@@ -56,6 +71,25 @@
   text-align: center;
   font-size: 18px;
   font-size: clamp(1.125rem, 1.0357rem + 0.2857vw, 1.25rem);
+}
+
+.abouttext h3 {
+  background: #e96443; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #904e95,
+    #e96443
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #904e95,
+    #e96443
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
 }
 
 .listcontainer {
