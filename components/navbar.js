@@ -10,10 +10,15 @@ function NavbarComponent() {
     backdropFilter: "blur(20px)",
     backgroundColor: "rgba(255, 255, 255, .15)",
     // position: "absolute",
+    // mixBlendMode: "difference",
     width: "100vw",
     borderBottom: "solid 2px transparent",
     backgroundClip: "padding-box",
-    boxShadow : "10px 10px 10px rgba(46, 54, 68, 0.03)"
+    boxShadow : "10px 10px 10px rgba(46, 54, 68, 0.03)",
+    "--bs-navbar-color" : "#212f3b",
+    "--bs-navbar-brand-color" : "#212f3b",
+    "--bs-nav-link-hover-color": "#535454",
+    fontWeight: "500"
     // rgb(146 146 146 / 20%)
   }
   return (

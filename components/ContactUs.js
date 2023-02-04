@@ -70,7 +70,7 @@ export const ContactUs = () => {
         pauseOnHover
         theme="light"
       />
-      <section id="contact" className={classes.section}>
+      <section id="#contact" className={classes.section}>
         <form className={classes.form} ref={form} onSubmit={sendEmail}>
           <h2>Contact Me</h2>
           {/* <label>Name</label> */}
