@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function Homepage() {
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   return (
     <Fragment>
       {/* <NavbarComponent/> */}

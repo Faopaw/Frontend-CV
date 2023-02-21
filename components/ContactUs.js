@@ -2,15 +2,21 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import classes from "./ContactUs.module.css";
 import { ToastContainer, toast } from 'react-toastify';
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 import 'react-toastify/dist/ReactToastify.css';
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 export const ContactUs = () => {
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   const form = useRef();
   const templateparams = {
     'g-recaptcha-response' : '03AHJ_ASjnLA214KSNKFJAK12sfKASfehbmfd...'
+  }
+  const submitButton = {
+    backgroundColor: "#02c22b",
+    width: "80px",
+    border: "none",
+    borderRadius: "6px"
   }
 
   const sendEmail = (e) => {
@@ -70,8 +76,9 @@ export const ContactUs = () => {
         pauseOnHover
         theme="light"
       />
-      <section id="#contact" className={classes.section}>
+      <section id="contact" className={classes.section}>
         <form className={classes.form} ref={form} onSubmit={sendEmail}>
+        
           <h2>Contact Me</h2>
           {/* <label>Name</label> */}
           <input
@@ -95,8 +102,8 @@ export const ContactUs = () => {
             rows={5}
             cols={33}
           />
-          <input className={classes.submitbutton} type="submit" value="Send" />
-          <div class="g-recaptcha" data-sitekey="6LcMs0AkAAAAAEQEv0nGTMhE39xuIbVyJlTaMZlA"></div>
+          <div class="g-recaptcha" data-sitekey="6LcJy1gkAAAAAExmDeUn2n61x89tI-gD73EtYHWk"></div>
+          <button style={submitButton} class="g-recaptcha" data-sitekey="6LcJy1gkAAAAAExmDeUn2n61x89tI-gD73EtYHWk" type="submit" value="Send" data-callback = "sendEmail">Send</button>
         </form>
       </section>
     </>

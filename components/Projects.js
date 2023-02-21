@@ -18,7 +18,10 @@ function Projects() {
       <section id="projects" className={classes.section}>
         <h1 className={classes.title}>Projects</h1>
         <div className={classes.projectscontainer}>
-          <div style={{gridArea: 1 / 1 / 2 / 3}} className={classes.singleproject}>
+          <div
+            style={{ gridArea: 1 / 1 / 2 / 3 }}
+            className={classes.singleproject}
+          >
             <div className={classes.imagecontainer}>
               <Image
                 style={picstyle}
@@ -42,17 +45,29 @@ function Projects() {
                 a web application around it to bring the features and
                 information the API provides to life.
               </p>
+              <div>
+                <ul className={classes.listcontainer}>
+                  <li className={classes.listitem}>React</li>
+                  <li className={classes.listitem}>Express.js</li>
+                  <li className={classes.listitem}>API</li>
+                  <li className={classes.listitem}>JavaScript</li>
+                  <li className={classes.listitem}>Bootstrap</li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div style={{gridArea: 2 / 1 / 3 / 3}} className={classes.singleproject}>
-          <div className={classes.imagecontainer}>
-           <Image
-              style={picstyle}
-              alt="image of the project"
-              src={landingpagepic}
-              fill
-            /> 
-          </div>
+          <div
+            style={{ gridArea: 2 / 1 / 3 / 3 }}
+            className={classes.singleproject}
+          >
+            <div className={classes.imagecontainer}>
+              <Image
+                style={picstyle}
+                alt="image of the project"
+                src={landingpagepic}
+                fill
+              />
+            </div>
             <div className={classes.projecttext}>
               <h3 className={classes.projecttitle}>
                 <a href="https://github.com/Faopaw/mca_landingpage">
@@ -65,17 +80,30 @@ function Projects() {
                 video-react and other paackages. Designed Mobile-first with
                 responsiveness and accessability kept in mind.
               </p>
+              <div>
+                <ul className={classes.listcontainer}>
+                  <li className={classes.listitem}>React</li>
+                  <li className={classes.listitem}>API</li>
+                  <li className={classes.listitem}>JavaScript</li>
+                  <li className={classes.listitem}>Bootstrap</li>
+                  <li className={classes.listitem}>video-react</li>
+                  <li className={classes.listitem}>aos</li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div style={{gridArea: 3 / 1 / 4 / 3}} className={classes.singleproject}>
-          <div className={classes.imagecontainer}>
-            <Image
-              style={picstyle}
-              alt="image of the project"
-              src={wordleclonepic}
-              fill
-            />
-          </div>
+          <div
+            style={{ gridArea: 3 / 1 / 4 / 3 }}
+            className={classes.singleproject}
+          >
+            <div className={classes.imagecontainer}>
+              <Image
+                style={picstyle}
+                alt="image of the project"
+                src={wordleclonepic}
+                fill
+              />
+            </div>
             <div className={classes.projecttext}>
               <h3 className={classes.projecttitle}>
                 <a href="https://github.com/Faopaw/wordle-game-react">
@@ -90,17 +118,28 @@ function Projects() {
                 clues as to whether the letters are correct, not correct or
                 almost correct.
               </p>
+              <div>
+                <ul className={classes.listcontainer}>
+                  <li className={classes.listitem}>React</li>
+                  <li className={classes.listitem}>JavaScript</li>
+                  <li className={classes.listitem}>animate.css</li>
+                  <li className={classes.listitem}>react-toastify</li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div style={{gridArea: 4 / 1 / 5 / 3}} className={classes.singleproject}>
-          <div className={classes.imagecontainer}>
-            <Image
-              style={picstyle}
-              alt="image of the project"
-              src={oldwebsitepic}
-              fill
-            />
-          </div>
+          <div
+            style={{ gridArea: 4 / 1 / 5 / 3 }}
+            className={classes.singleproject}
+          >
+            <div className={classes.imagecontainer}>
+              <Image
+                style={picstyle}
+                alt="image of the project"
+                src={oldwebsitepic}
+                fill
+              />
+            </div>
             <div className={classes.projecttext}>
               <h3 className={classes.projecttitle}>
                 <a href="https://faopaw.github.io/idirisomer.github.io/">
@@ -112,6 +151,14 @@ function Projects() {
                 Despite its simplicity, it is easy on the eye, responsive and
                 straightforward.
               </p>
+              <div>
+                <ul className={classes.listcontainer}>
+                  <li className={classes.listitem}>HTML5</li>
+                  <li className={classes.listitem}>Sass</li>
+                  <li className={classes.listitem}>JavaScript</li>
+                  <li className={classes.listitem}>Bootstrap</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
