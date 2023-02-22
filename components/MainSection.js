@@ -17,14 +17,14 @@ function MainSection() {
   const styleblur = {
     borderRadius : "2rem",
     boxShadow: "0 0 50px 50px white inset",
-    "WebkitFilter": "blur(20px)",
-    "Mozfilter": "blur(20px)",
-    "OFilter": "blur(20px)",
-    "msFilter": "blur(20px)",
-    filter: "blur(30px)",
-    "zindex" : "-99",
-    top:0,
-    left:0
+    // "WebkitFilter": "blur(20px)",
+    // "Mozfilter": "blur(20px)",
+    // "OFilter": "blur(20px)",
+    // "msFilter": "blur(20px)",
+    // filter: "blur(30px)",
+    // "zindex" : "-99",
+    // top:0,
+    // left:0
   }
 
   // useEffect(() => {
@@ -34,7 +34,6 @@ function MainSection() {
 
   return (
     <>
-    <NavbarComponent/>
       <section id="home" className={classes.maincontainer}>
         <div className={classes.main}>
           <div className={classes.maintext}>
@@ -69,14 +68,14 @@ function MainSection() {
               width={400}
               priority
             />
-            <Image
+            {/* <Image
               style={style}
               alt="AI generated image of a wild wavy circular pattern"
               src= {mainImage}
               height={400}
               width={400}
               priority
-            />
+            /> */}
           </div>
         </div>
       </section>

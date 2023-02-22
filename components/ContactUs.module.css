@@ -6,6 +6,11 @@
   align-items: center;
   background-color: transparent;
   padding-bottom: 5rem;
+  background-image: url("../public/ttten.svg");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .form h2 {

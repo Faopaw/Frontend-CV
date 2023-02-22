@@ -23,6 +23,7 @@
   /* font-size: 32px; */
   font-size: clamp(1.8125rem, 1.0536rem + 2.4286vw, 2.875rem);
   text-align: center;
+  padding: 1rem;
 }
 
 .myname {

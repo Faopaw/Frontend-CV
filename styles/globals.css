@@ -6,7 +6,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     scroll-behavior: smooth;
     
-    background-image: url("../public/ttten.svg");
+    /* background-image: url("../public/ttten.svg"); */
     background-color: #ffffff;
     background-attachment: fixed;
     height: 100%;
@@ -34,7 +34,7 @@ a {
     color-scheme: dark;
   }
   body {
-    background-image: url("../public/ttten.svg");
+    /* background-image: url("../public/ttten.svg"); */
     background-color: #ffffff;
   }
 }

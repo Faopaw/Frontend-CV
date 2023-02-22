@@ -56,6 +56,19 @@
   height: 200px;
   width: 100%;
   padding: 2rem;
+  opacity: .7;
+  animation: skelleton-loading 1s linear infinite alternate;
+  border-radius: 10%;
+}
+
+@keyframes skelleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
 }
 
 .listcontainer {
