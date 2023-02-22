@@ -8,7 +8,7 @@ function NavbarComponent() {
 
   const style = {
     backdropFilter: "blur(20px)",
-    backgroundColor: "rgb(199 199 216 / 22%);",
+    backgroundColor: "rgb(199 199 216 / 22%)",
     
     // position: "absolute",
     // mixBlendMode: "difference",
