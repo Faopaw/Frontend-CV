@@ -16,7 +16,17 @@ body {
     overflow-x: hidden;
   }
   :root {
-    --mainColor: #00b7ff;
+    --primaryColourA : #1F1F1F;
+    --primaryColourB : #E9E9E9;
+    --PrimaryColourB-Bluish : #F6F9FC;
+    --primaryColourC : #507C74;
+    
+    /* #61988E  - Zomp - lighter shade of the above*/
+    
+    --secondaryColour : #16425B;
+
+    --accentColourA: #E03800;
+    --accentColourB: #F2D0A9;
   }
   
 

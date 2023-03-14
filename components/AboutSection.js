@@ -14,8 +14,8 @@ function AboutSection() {
   };
 
   return (
-    <section className={classes.maincontainer}>
-      <h1 id="about" className={classes.about}>
+    <section id="about" className={classes.maincontainer}>
+      <h1 className={classes.about}>
         About Me
       </h1>
       <div className={classes.content}>
@@ -45,7 +45,7 @@ function AboutSection() {
             time. I am hoping to land my first Frontend Developer job with a
             company who&apos;s values align with mine.
           </p>
-          <h3>Skills</h3>
+          <h3 className={classes.skills}>Skills</h3>
           <div className={classes.techskills}>
             <ul className={classes.listcontainer}>
               <li className={classes.listitem}>HTML5</li>

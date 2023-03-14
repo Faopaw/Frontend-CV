@@ -7,20 +7,16 @@ import classes from './navbar.module.css';
 function NavbarComponent() {
 
   const style = {
-    backdropFilter: "blur(20px)",
-    backgroundColor: "rgb(199 199 216 / 22%)",
-    
-    // position: "absolute",
-    // mixBlendMode: "difference",
-    width: "100vw",
-    borderBottom: "solid 2px transparent",
+    backgroundColor: "var(--secondaryColour)",
+
+    // width: "100vw",
     backgroundClip: "padding-box",
-    boxShadow : "10px 10px 10px rgba(46, 54, 68, 0.03)",
-    "--bs-navbar-color" : "#212f3b",
-    "--bs-navbar-brand-color" : "#212f3b",
-    "--bs-nav-link-hover-color": "#535454",
+    "--bs-navbar-color" : "rgba(220, 220, 220, 1)",
+    "--bs-navbar-brand-color" : "rgba(220, 220, 220, 1)",
+    
+    "--bs-navbar-hover-color" :"rgba(155, 154, 154, 1)",
+    "--bs-navbar-brand-hover-color" : "rgba(155, 154, 154, 1)",
     fontWeight: "500"
-    // rgb(146 146 146 / 20%)
   }
   return (
     <Navbar style={style} className= "navbar" variant="light" expand="lg" sticky="top">

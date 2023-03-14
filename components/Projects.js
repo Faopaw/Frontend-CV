@@ -5,6 +5,9 @@ import fruityvicepic from "../public/Fruityvicescreenshot.png";
 import landingpagepic from "../public/MCAlandingpagescreenshot.png";
 import oldwebsitepic from "../public/oldsitescreenshot.png";
 import wordleclonepic from "../public/wordlescreenshot.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 function Projects() {
   const picstyle = {
@@ -12,6 +15,10 @@ function Projects() {
     objectFit: "cover",
     objectPosition: "center",
   };
+
+  useEffect(() => {
+    AOS.init();
+  })
 
   return (
     <>
@@ -59,6 +66,7 @@ function Projects() {
           <div
             style={{ gridArea: 2 / 1 / 3 / 3 }}
             className={classes.singleproject}
+            // data-aos="fade-up"
           >
             <div className={classes.imagecontainer}>
               <Image
