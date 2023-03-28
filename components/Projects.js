@@ -5,8 +5,9 @@ import fruityvicepic from "../public/Fruityvicescreenshot.png";
 import landingpagepic from "../public/MCAlandingpagescreenshot.png";
 import oldwebsitepic from "../public/oldsitescreenshot.png";
 import wordleclonepic from "../public/wordlescreenshot.png";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import taraweehappss from "../public/taraweehappss.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 function Projects() {
@@ -18,7 +19,7 @@ function Projects() {
 
   useEffect(() => {
     AOS.init();
-  })
+  });
 
   return (
     <>
@@ -26,7 +27,50 @@ function Projects() {
         <h1 className={classes.title}>Projects</h1>
         <div className={classes.projectscontainer}>
           <div
-            style={{ gridArea: 1 / 1 / 2 / 3 }}
+            style={{ gridArea: 1 / 1 / 2 / 2 }}
+            className={classes.singleproject}
+          >
+            <div className={classes.imagecontainer}>
+              <Image
+                style={picstyle}
+                alt="image of the project"
+                src={taraweehappss}
+                fill
+              />
+            </div>
+            <div className={classes.projecttext}>
+              <p className={classes.subtitle}>Featured Project</p>
+              <h3 className={classes.projecttitle}>
+                <a href="https://find-imam-taraweeh.vercel.app/">
+                  find-imam-taraweeh
+                </a>
+              </h3>
+              <p className={classes.projectdescription}>
+                This project was built with React & Next.js. This app serves to
+                solve the problem of finding an Imam to Lead the prayers in
+                mosques nationwide. Users are able to login with either their
+                email or one of their social accounts for ease of access.
+                Authentication and Runtime validation are handled by Auth0 and
+                Yup respectively.
+              </p>
+              <div>
+                <ul className={classes.listcontainer}>
+                  <li className={classes.listitem}>React</li>
+                  <li className={classes.listitem}>Nextjs</li>
+                  <li className={classes.listitem}>Contentful</li>
+                  <li className={classes.listitem}>API</li>
+                  <li className={classes.listitem}>Framer Motion</li>
+                  <li className={classes.listitem}>Auth0</li>
+                  <li className={classes.listitem}>formik</li>
+                  <li className={classes.listitem}>yup</li>
+                  <li className={classes.listitem}>Bootstrap</li>
+                  <li className={classes.listitem}>JavaScript</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ gridArea: 2 / 1 / 3 / 2 }}
             className={classes.singleproject}
           >
             <div className={classes.imagecontainer}>
@@ -64,7 +108,7 @@ function Projects() {
             </div>
           </div>
           <div
-            style={{ gridArea: 2 / 1 / 3 / 3 }}
+            style={{ gridArea: 3 / 1 / 4 / 2 }}
             className={classes.singleproject}
             // data-aos="fade-up"
           >
@@ -101,7 +145,7 @@ function Projects() {
             </div>
           </div>
           <div
-            style={{ gridArea: 3 / 1 / 4 / 3 }}
+            style={{ gridArea: 4 / 1 / 5 / 2 }}
             className={classes.singleproject}
           >
             <div className={classes.imagecontainer}>
@@ -137,7 +181,7 @@ function Projects() {
             </div>
           </div>
           <div
-            style={{ gridArea: 4 / 1 / 5 / 3 }}
+            style={{ gridArea: 5 / 1 / 6 / 2 }}
             className={classes.singleproject}
           >
             <div className={classes.imagecontainer}>
