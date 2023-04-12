@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import classes from './MainSection.module.css';
-import mainImage from './/../public/dddepth-088.jpg';
+// import mainImage from './/../public/dddepth-088.jpg';
+import mainImage from './/../public/undraw_our_solution_re_8yk6.svg';
+
 import React, { useState, useEffect, Component } from 'react';
 import Typical from 'react-typical';
 import NavbarComponent from '../components/navbar';
@@ -51,8 +53,8 @@ function MainSection() {
               style={style}
               alt='AI generated image of a wild wavy circular pattern'
               src={mainImage}
-              height={400}
-              width={400}
+              height={500}
+              width={500}
               priority
             />
           </div>

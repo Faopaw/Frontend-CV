@@ -6,27 +6,25 @@ import { IconContext } from "react-icons";
 
 function AboutSection() {
   const picstyle = {
-    borderRadius: "10%",
+    borderRadius: "25px",
+    width: "auto",
+    height: "100%",
     objectFit: "contain",
     objectPosition: "center",
-    // sizes: "(max-width: 500px) 70vw,(max-width: 1000px) 33vw",
-    // layout: "intrinsic"
   };
 
   return (
     <section id="about" className={classes.maincontainer}>
-      <h1 className={classes.about}>
-        About Me
-      </h1>
+      <h1 className={classes.about}>About Me</h1>
       <div className={classes.content}>
         <div className={classes.aboutimagecontainer}>
-            <Image
-              style={picstyle}
-              alt="a decent picture of me"
-              src={profilepic}
-              fill
-              sizes= "(max-width: 500px) 90vw,(max-width: 1000px) 50vw"
-            />
+          <Image
+            style={picstyle}
+            alt="a decent picture of me"
+            src={profilepic}
+            // fill
+            // sizes= "(max-width: 500px) 90vw,(max-width: 1000px) 50vw"
+          />
         </div>
 
         <div className={classes.abouttext}>
@@ -34,16 +32,15 @@ function AboutSection() {
             {" "}
             Ever since I was a young child I had an interest in technology and
             its capabilities. My first experience with programming was with the
-            Scratch programming language. It was the thing that sparked my
-            curiosity for technology, programming and its limitless potential
-            capabilities.
+            Scratch programming language. this sparked my curiosity for
+            programming, technology and its limitless potential capabilities.
           </p>
           <p>
             {" "}
-            Fast forward to the present, I am now a Frontend Developer. I have
-            got here via online bootcamps and extra courses taken in my own
-            time. I am hoping to land my first Frontend Developer job with a
-            company who&apos;s values align with mine.
+            Fast forward to the present, I am now a Frontend Developer, honing
+            my skills and experience through certified bootcamps and taking
+            extra courses in my own time. I am hoping to land my first Frontend
+            Developer job with a company who&apos;s values align with mine.
           </p>
           <h3 className={classes.skills}>Skills</h3>
           <div className={classes.techskills}>
