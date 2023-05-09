@@ -19,20 +19,30 @@ function MainSection() {
             <br></br>
             <Typewriter
               options={{
-                strings: ["Frontend Developer","Bug finder", "React Developer","Looking for a job"],
+                strings: [
+                  "Frontend Developer",
+                  "Bug finder",
+                  "React Developer",
+                  "Looking for a job",
+                ],
                 autoStart: true,
                 loop: true,
               }}
             />
             <p className={classes.leadingtext}>
               I am a Front End developer with experience building websites and
-              web applications. I specialize in frontend technologies such as
-              JavaScript, React & Next.js. Currently learning about Next.js and
+              web apps. I specialize in frontend technologies such as
+              JavaScript, React & Next.js. Currently working with Next.js and
               working on projects.
             </p>
             <button href="#about" className={classes.mainButton}>
               <a className={classes.mainButtonText} href="#about">
                 Find out more!
+              </a>
+            </button>
+            <button href="#about" className={classes.mainButton}>
+              <a className={classes.mainButtonText} href="/resume.pdf">
+                Resume
               </a>
             </button>
           </div>
