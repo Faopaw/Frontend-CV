@@ -106,6 +106,7 @@
     color: var(--accentColourA);
     letter-spacing: .4em;
     font-size: 0.85em;
+    text-align: center;
 }
 
 .listitem:hover {
@@ -192,6 +193,14 @@
     justify-self: center;
     justify-content: center;
   }
+  .subtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--accentColourA);
+    letter-spacing: .4em;
+    font-size: 0.85em;
+    text-align: left;
+}
 
   .projecttitle {
     text-align: left;
