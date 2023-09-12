@@ -1,6 +1,5 @@
 import Image from "next/image";
 import classes from "./Projects.module.css";
-import profilepic from "../public/eid-pic-selfie.jpg";
 import fruityvicepic from "../public/Fruityvicescreenshot.png";
 import landingpagepic from "../public/MCAlandingpagescreenshot.png";
 import oldwebsitepic from "../public/oldsitescreenshot.png";
