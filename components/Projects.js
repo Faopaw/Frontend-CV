@@ -41,7 +41,7 @@ function Projects() {
             <div className={classes.projecttext}>
               <p className={classes.subtitle}>Featured Project</p>
               <h3 className={classes.projecttitle}>
-                <a href="https://find-imam-taraweeh.vercel.app/">
+                <a href="https://find-imam-taraweeh.vercel.app/landing">
                   find-imam-taraweeh
                 </a>
               </h3>
