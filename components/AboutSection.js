@@ -22,25 +22,22 @@ function AboutSection() {
             style={picstyle}
             alt="a decent picture of me"
             src={profilepic}
-            // fill
-            // sizes= "(max-width: 500px) 90vw,(max-width: 1000px) 50vw"
           />
         </div>
 
         <div className={classes.abouttext}>
           <p>
             {" "}
-            Ever since I was a young child I had an interest in technology and
-            its capabilities. My first experience with programming was with the
-            Scratch programming language. this sparked my curiosity for
-            programming, technology and its limitless potential capabilities.
+            From a young age, I&apos;ve been captivated by technology and its
+            boundless possibilities. My journey into the world of programming
+            began with Scratch, igniting my passion for technology and coding.
           </p>
           <p>
             {" "}
-            Fast forward to the present, I am now a Frontend Developer, honing
-            my skills and experience through certified bootcamps and taking
-            extra courses in my own time. I am hoping to land my first Frontend
-            Developer job with a company who&apos;s values align with mine.
+            Today, I proudly stand as a Frontend Developer, refining my craft
+            through certified bootcamps and dedicated self-study. I am eagerly
+            seeking my first opportunity in a Frontend Developer role, aspiring
+            to join a company that shares my values and vision.
           </p>
           <h3 className={classes.skills}>Skills</h3>
           <div className={classes.techskills}>
@@ -49,14 +46,10 @@ function AboutSection() {
               <li className={classes.listitem}>CSS3</li>
               <li className={classes.listitem}>JavaScript / ES6</li>
               <li className={classes.listitem}>React.js</li>
-              <li className={classes.listitem}>Figma</li>
-              <li className={classes.listitem}>Postman</li>
               <li className={classes.listitem}>Git/GitHub</li>
               <li className={classes.listitem}>Node.js</li>
-              <li className={classes.listitem}>MongoDB</li>
               <li className={classes.listitem}>Next.js</li>
               <li className={classes.listitem}>Sass</li>
-              <li className={classes.listitem}>Visual Studio Code</li>
             </ul>
           </div>
           <div className={classes.socialslinks}>

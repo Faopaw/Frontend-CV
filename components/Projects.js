@@ -54,16 +54,18 @@ function Projects() {
               </p>
               <div>
                 <ul className={classes.listcontainer}>
+                <li className={classes.listitem}>JavaScript</li>
                   <li className={classes.listitem}>React</li>
                   <li className={classes.listitem}>Nextjs</li>
-                  <li className={classes.listitem}>Contentful</li>
-                  <li className={classes.listitem}>API</li>
-                  <li className={classes.listitem}>Framer Motion</li>
-                  <li className={classes.listitem}>Auth0</li>
-                  <li className={classes.listitem}>formik</li>
-                  <li className={classes.listitem}>yup</li>
                   <li className={classes.listitem}>Bootstrap</li>
-                  <li className={classes.listitem}>JavaScript</li>
+                  <li className={classes.listitem}>API</li>
+                  <li className={classes.listitem}>Framer</li>
+                  {/* <li className={classes.listitem}>CMS</li> */}
+                  {/* <li className={classes.listitem}>Auth0</li> */}
+                  {/* <li className={classes.listitem}>formik</li> */}
+                  {/* <li className={classes.listitem}>yup</li> */}
+                  
+                  
                 </ul>
               </div>
             </div>
@@ -137,8 +139,8 @@ function Projects() {
                   <li className={classes.listitem}>API</li>
                   <li className={classes.listitem}>JavaScript</li>
                   <li className={classes.listitem}>Bootstrap</li>
-                  <li className={classes.listitem}>video-react</li>
-                  <li className={classes.listitem}>aos</li>
+                  {/* <li className={classes.listitem}>video-react</li> */}
+                  {/* <li className={classes.listitem}>aos</li> */}
                 </ul>
               </div>
             </div>
@@ -173,8 +175,8 @@ function Projects() {
                 <ul className={classes.listcontainer}>
                   <li className={classes.listitem}>React</li>
                   <li className={classes.listitem}>JavaScript</li>
-                  <li className={classes.listitem}>animate.css</li>
-                  <li className={classes.listitem}>react-toastify</li>
+                  {/* <li className={classes.listitem}>animate.css</li>
+                  <li className={classes.listitem}>react-toastify</li> */}
                 </ul>
               </div>
             </div>

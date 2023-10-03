@@ -30,10 +30,14 @@ function MainSection() {
               }}
             />
             <p className={classes.leadingtext}>
-              I am a Front End developer with experience building websites and
+              {/* I am a Front End developer with experience building websites and
               web apps. I specialize in frontend technologies such as
               JavaScript, React & Next.js. Currently working with Next.js and
-              working on projects.
+              working on projects. */}
+              Welcome to my website! I&apos;m a seasoned Front End developer with a
+              passion for crafting exceptional websites and web applications. My
+              expertise lies in frontend technologies, with a strong focus on
+              JavaScript, React, and Next.js.
             </p>
             <button href="#about" className={classes.mainButton}>
               <a className={classes.mainButtonText} href="#about">
