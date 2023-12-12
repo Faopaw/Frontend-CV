@@ -46,10 +46,9 @@ function AboutSection() {
               <li className={classes.listitem}>CSS3</li>
               <li className={classes.listitem}>JavaScript / ES6</li>
               <li className={classes.listitem}>React.js</li>
-              <li className={classes.listitem}>Git/GitHub</li>
+              <li className={classes.listitem}>TypeScript</li>
               <li className={classes.listitem}>Node.js</li>
               <li className={classes.listitem}>Next.js</li>
-              <li className={classes.listitem}>Sass</li>
             </ul>
           </div>
           <div className={classes.socialslinks}>
